@@ -4,9 +4,9 @@ import java.util.InputMismatchException;
 
 class Account {
     // Private fields: hidden from outside access (Encapsulation)
-    private String ownerName;
+    private final String ownerName;
     private double balance;
-    private ArrayList<String> history;
+    private final ArrayList<String> history;
 
     public Account(String ownerName, double balance) {
         this.ownerName = ownerName;
