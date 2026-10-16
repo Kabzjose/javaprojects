@@ -3,6 +3,11 @@ public class Machine{
     String model="M4 competition";
     int year=2020;
     Boolean isRunning=false;
+    Machine(String make,String model,int year){
+        this.make=make;
+        this.model=model;
+        this.year=year;
+    }
 
     void startCar(){
         isRunning=true;
